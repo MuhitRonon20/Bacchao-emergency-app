@@ -1,0 +1,63 @@
+{
+  "name": "bacchao-app",
+  "version": "1.0.0",
+  "description": "BACCHAO - Emergency Safety System | React Native Mobile App",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "expo build"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-navigation/bottom-tabs": "^6.5.12",
+    "@react-navigation/native": "^6.1.12",
+    "@react-navigation/native-stack": "^6.9.20",
+    "expo": "^54.0.33",
+    "expo-av": "~16.0.8",
+    "expo-camera": "~17.0.10",
+    "expo-location": "~19.0.8",
+    "react": "^19.1.0",
+    "react-native": "^0.81.5",
+    "react-native-gesture-handler": "^2.14.2",
+    "react-native-reanimated": "~4.1.1",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-worklets-core": "^1.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@types/react": "~19.1.10",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-expo": "~54.0.17",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "react-native",
+    "emergency",
+    "safety",
+    "SOS",
+    "location-sharing",
+    "mobile-app"
+  ],
+  "author": "BACCHAO Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bacchao/bacchao-app"
+  },
+  "bugs": {
+    "url": "https://github.com/bacchao/bacchao-app/issues"
+  },
+  "homepage": "https://www.bacchao.com"
+}
